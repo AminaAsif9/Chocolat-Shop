@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+} 
+body {
+    margin: 0%;
+    padding: 0%;
+    color: #9F8170;
+}
+nav{
+    background-color: #54392a;
+}
+#home{
+    background-image: url(../images/main.webp); 
+    background-size: cover; 
+} 
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: burlywood;
+}
+.nav-link:active{
+    color: grey;
+}
+a{
+    color: #9F8170;
+}
+.bg_clr{
+    background-color: rgba(0, 0, 0, 0.288);
+}
+h1{
+    font-family: serif; 
+    font-size: 90px;
+}
+h2{
+    font-family: serif; 
+    font-size: 40px;
+}
+.bg_img{
+    background-image: url(../images/bg.jpg);
+    background-size: cover; 
+}
+.quote{
+    padding:150px 200px 150px 200px;
+}
+.quote h2{
+    font-size: 30px; 
+    font-style: italic;
+}
+#contact{
+    background-color: #f1e3db;
+    padding: 20px 50px 20px 50px;
+}
+.btn, footer{
+    background-color: #8e6c59; 
+    color: white;
+}
